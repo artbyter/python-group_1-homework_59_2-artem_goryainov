@@ -7,7 +7,7 @@ class Button extends React.Component {
 
     render() {
     return (
-        <button onClick={this.props.onClick}>Click me</button>
+        <button className='btn btn-primary my-3' onClick={this.props.onClick}>Еще шуток!</button>
     )}
 
 }

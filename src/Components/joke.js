@@ -3,7 +3,7 @@ import React from 'react'
 function Joke(props) {
 
     return (
-        <div>
+        <div className='border border-info'>
             {props.text}
         </div>
     )
